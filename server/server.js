@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const cron = require('node-cron');
-const taskRoutes = require('../Tasks');
+const taskRoutes = require('/routes/tasks');
 require('dotenv').config();
 
 const app = express();
