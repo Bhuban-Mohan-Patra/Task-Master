@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use('/api/tasks', taskRoutes);
+app.use('/api/tasks', taskRoutes)
 
 // MongoDB Connection
 const MONGO_URI = process.env.MONGO_URI;
