@@ -1,0 +1,15 @@
+.cover{
+  width:40%;
+}
+.completed h5 {
+    text-decoration: line-through;
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
+  .text-muted {
+    color: #6c757d !important;
+  }
+  
