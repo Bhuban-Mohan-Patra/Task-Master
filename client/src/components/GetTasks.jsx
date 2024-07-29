@@ -18,7 +18,7 @@ const GetTasks = () => {
     }
 
     try {
-      await axios.post('http://localhost:5000/api/send-tasks', { email, date });
+      await axios.post('https://task-master-server-0q0u.onrender.com/api/send-tasks', { email, date });
       setSuccessMessage('Tasks sent successfully.');
       setEmail('');
       setDate('');

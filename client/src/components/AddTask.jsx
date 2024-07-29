@@ -46,7 +46,7 @@ const AddTask = ({ tasks, setTasks }) => {
 
     try {
       const newTask = { task, date, startTime, endTime, isImportant };
-      const response = await axios.post('http://localhost:5000/api/tasks', newTask);
+      const response = await axios.post('https://task-master-server-0q0u.onrender.com/api/tasks', newTask);
 
       setTasks([...tasks, response.data]);
       setSuccessMessage('Task added successfully.');
